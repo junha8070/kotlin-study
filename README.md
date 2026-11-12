@@ -1,11 +1,9 @@
 # Java + Kotlin 공부용 프로젝트 (VS Code)
 
 ## 구조
-- `src/main/java/study/` — Java 연습 파일
 - `src/main/kotlin/study/` — Kotlin 연습 파일
 
 ## 실행
-- **Java**: `.java` 파일의 `main` 위에 뜨는 **Run | Debug** 클릭 (또는 F5)
 - **Kotlin**: `Cmd+Shift+B` (기본 빌드 작업 = `./gradlew run`)
   - 터미널에서 직접: `./gradlew run`
   - 다른 날 코드 실행: `./gradlew run -PmainClass=study.day01.Day01Kt`
